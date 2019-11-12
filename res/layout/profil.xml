@@ -7,14 +7,14 @@
         android:id="@+id/tvsatu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Profilku"
+        android:text="Profil"
         />
     
     <TextView
         android:id="@+id/tvdua"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Namaku Felix. NIM ku 183303030021"
+        android:text="Fahrul Rozy 183303030003"
         android:layout_below="@+id/tvsatu"
         />
     
