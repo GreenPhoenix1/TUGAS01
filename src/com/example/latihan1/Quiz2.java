@@ -50,17 +50,18 @@ public class Quiz2 extends Activity{
 					txt2.setText("Bil 2 paling besar dan bil 3 yang paling kecil ");
 				
 				}
-				else if(bil2 > bil1 && bil1 < bil3){
+				else if(bil1 < bil2 && bil2 > bil3){
 					
 					txt2.setText("Bil 2 paling besar dan bil 1 paling kecil");
+				}
+				else if(bil3 > bil1 && bil1 > bil2){
 					
+					txt2.setText("Bil 3 paling besar dan bil 2 yang paling kecil ");
+				
 				}
-				else if(bil3 > bil1 && bil1 < bil2){
-					txt2.setText("bil3 paling besar dan bil 1 paling kecil");
-				}
-			
-				else if(bil3 > bil2 && bil2 < bil1){
-					txt2.setText("bil3 paling besar dan bil 2 paling kecil");
+				else if(bil3 > bil2 && bil2 > bil1){
+					
+					txt2.setText("Bil 3 paling besar dan bil 1 paling kecil");
 				}
 				
 				else{
